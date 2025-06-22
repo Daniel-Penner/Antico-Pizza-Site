@@ -1,0 +1,18 @@
+:root {
+    /* Backgrounds */
+    --background-color: #FAF8F5;
+    --hero-overlay: rgba(0, 0, 0, 0.5);
+    --nav-background: #2C2C2C;
+    --topbar-background: #1F1F1F;
+
+    /* Text Colors */
+    --text-main: #5A5A5A;
+    --text-header: #3A3A3A;
+    --text-light: #F4ECE1;
+
+    /* Accent Colors */
+    --accent: #B33939;
+    --divider: #D6CFC7;
+    --button-background: #2C2C2C;
+    --button-hover: #B33939;
+}
