@@ -1,4 +1,19 @@
+/* src/Pages/Menu/Menu.module.css */
+.main {
+    background-color: var(--background-color);
+    color: var(--text-main);
+    min-height: 100vh;
+}
+
+.heroImage {
+    background-image: url("../../assets/pizza-banner.png");
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
 .menuSection {
+    max-width: 900px;
     margin: 2rem auto;
     padding: 1.5rem;
     text-align: center;
@@ -16,6 +31,7 @@
     flex-wrap: wrap;
     gap: 0.8rem;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .menuFilters button {
@@ -31,4 +47,41 @@
 
 .menuFilters button:hover {
     background-color: var(--button-hover);
+}
+
+.menu {
+    text-align: left;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.menu h3 {
+    font-size: 1.8rem;
+    color: var(--text-header);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sectionDescription {
+    font-style: italic;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.menuList li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+    color: var(--text-header);
 }
