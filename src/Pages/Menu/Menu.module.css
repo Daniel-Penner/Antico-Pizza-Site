@@ -2,7 +2,7 @@
 .main {
     background-color: var(--background-color);
     color: var(--text-main);
-    min-height: 100vh;
+    min-height: calc(100vh - 195px);
 }
 
 .heroImage {
@@ -14,8 +14,8 @@
 
 .menuSection {
     max-width: 900px;
-    margin: 2rem auto;
-    padding: 1.5rem;
+    margin: 0 auto 0;
+    padding: 2rem;
     text-align: center;
 }
 

@@ -9,10 +9,9 @@ export default function Menu() {
     const [activeSection, setActiveSection] = useState('Pizza Rossa');
 
     return (
-        <>
+        <div className={styles.pageContainer}>
             <Header />
             <main className={styles.main}>
-                <div className={styles.heroImage}></div>
                 <section className={styles.menuSection}>
                     <h2>Menu</h2>
                     <div className={styles.menuFilters}>
@@ -42,6 +41,7 @@ export default function Menu() {
                                 <li><strong>Isola</strong> – Italian Cotto Ham, Fresh Pineapple, Aged Balsamic, Oregano, Garlic <span className={styles.price}>$20</span></li>
                                 <li><strong>Americano</strong> – Pepperoni, Mushroom, Scamorza Cheese, Oregano <span className={styles.price}>$20</span></li>
                             </ul>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -64,6 +64,7 @@ export default function Menu() {
                                 $1.50 — Shaved Parmasean Reggiano, Feta Cheese, Anchovies, Pepperoni.</p>
                             <p><strong>Veg:</strong> $2.50 each — Artichoke, Capers, Arugula.<br />
                                 $1.00 — Garlic, Green Pepper, Red Onion, Black Olives, Mushroom, Pesto, Cherry Tomato.</p>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -76,6 +77,7 @@ export default function Menu() {
                                 <li><strong>Bolognese</strong> – Traditionally made with beef & pancetta <span className={styles.price}>$21</span></li>
                                 <li><strong>Crema e Tartufo</strong> – Cream sauce with black summer truffle <span className={styles.price}>$20</span></li>
                             </ul>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -88,6 +90,7 @@ export default function Menu() {
                                 <li><strong>Caprese Salad</strong> – Bocconcini, Tomato, Basil, Arugula, EVOO, Aged Balsamic <span className={styles.price}>$15</span></li>
                                 <li><strong>Bufala Arugula</strong> – Bocconcini, Arugula, Prosciutto, EVOO, Aged Balsamic <span className={styles.price}>$16</span></li>
                             </ul>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -101,6 +104,7 @@ export default function Menu() {
                                 <li><strong>Hummus</strong> – With oven baked pita <span className={styles.price}>$10</span></li>
                                 <li><strong>Pizza Sides</strong> – Hot Caesar Dip, Caesar Dip, Marinara, Chili Oil, or Balsamic & Olive Oil <span className={styles.price}>$2.00 ea</span></li>
                             </ul>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -111,6 +115,7 @@ export default function Menu() {
                                 <li><strong>Miranda's Famous Cheese Cake</strong> – With Cherry Topping <span className={styles.price}>$8.25</span></li>
                                 <li><strong>House Made Tiramisu</strong> <span className={styles.price}>$8.25</span></li>
                             </ul>
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
 
@@ -158,11 +163,12 @@ export default function Menu() {
                                 <li>Imported Chinotto, Limonata, Aranciata (bottle or can) <span className={styles.price}>$4.75</span></li>
                                 <li>Spring Water (500ml plastic bottle) <span className={styles.price}>$2.00</span></li>
                             </ul>
-                            <p style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>Taxes not included. Prices subject to change.</p>
+
+                            <p className={styles.disclaimer}>Taxes not included. Prices subject to change.</p>
                         </section>
                     )}
                 </section>
             </main>
-        </>
+        </div>
     );
 }

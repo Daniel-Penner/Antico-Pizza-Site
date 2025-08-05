@@ -7,7 +7,7 @@
 
 .heroImage {
     background-image: url("../../assets/pizza-banner.png");
-    height: 350px;
+    height: 500px;
     background-position: center;
     background-size: cover;
 }

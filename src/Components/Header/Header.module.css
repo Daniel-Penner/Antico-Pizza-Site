@@ -1,7 +1,6 @@
 .header {
     background-color: var(--nav-background);
     color: var(--text-light);
-    width: calc(100vw - 15px);
     overflow-x: hidden;
 }
 
