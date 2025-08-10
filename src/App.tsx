@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Menu from './Pages/Menu/Menu';
 import About from './Pages/About/About';
+import HoursAndLocation from "./Pages/HoursAndLocation/HoursAndLocation.tsx";
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/about" element={<About />} />
+            <Route path="/hours" element={<HoursAndLocation />} />
         </Routes>
     );
 }

@@ -27,7 +27,7 @@ export default function Header() {
                     <nav className={styles.nav}>
                         <a href="/">Home</a>
                         <a href="/menu">Menu</a>
-                        <a href="#">Hours + Location</a>
+                        <a href="/hours">Hours + Location</a>
                         <a href="/about">About Us</a>
                     </nav>
                 </div>
